@@ -1,0 +1,621 @@
+.waitingroom {
+  display: flex;
+  flex: 0.84;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #ededed;
+  width: 100px;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.dashboard {
+  display: flex;
+  background-color: #ededed;
+  height: 100vh;
+}
+
+.profilepictop {
+  width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.profilepiccard {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.availabletypeshort {
+  background-color: #03d993;
+  border-radius: 20px;
+  border: 1px solid #03d993;
+  padding: 0px 15px 2px 15px;
+  color: white;
+}
+
+.availabletypered {
+  background-color: red;
+  border-radius: 20px;
+  border: 1px solid red;
+  padding: 0px 15px 2px 15px;
+  color: white;
+}
+
+.availabletypemedium {
+  background-color: yellow;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  padding: 0px 15px 2px 15px;
+  color: black;
+}
+
+.headingspan {
+  color: #343a4099;
+  font-size: 13px;
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.headingwaiting {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.waitingcard {
+  border-radius: 5px;
+}
+
+.waitingcardempty {
+  border-radius: 5px;
+  padding: 20px;
+  height: 180px;
+}
+
+.profilelink {
+  color: black;
+}
+
+.sendinvitebtn {
+  background-color: #9f63a9;
+  padding: 5px 20px;
+  border-radius: 5px !important;
+  color: white;
+  font-size: 10px;
+  border: 1px solid #9f63a9;
+}
+
+.inviteconten {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.notifcationconten {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.inviteimg {
+  width: 70px;
+}
+
+.buttondiv {
+  background-color: white;
+  padding: 5px 20px !important;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 350px;
+  margin-bottom: 10px !important;
+}
+.buttondiv1 {
+  background-color: white;
+  padding: 13px 20px !important;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 350px;
+  margin-bottom: 10px !important;
+}
+.flexNotification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttondivnew {
+  width: 300px;
+}
+
+.mystylediv {
+  background-color: gray;
+  color: white;
+}
+
+.countdiv {
+  float: right;
+  background-color: #9f63a9;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-top: -5px;
+  color: white;
+  margin-right: -10px;
+}
+
+.connectiontime {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.drname {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+.connectiondiv {
+  border-radius: 5px;
+}
+
+.profilepic {
+  border-radius: 10px;
+  width: 40px;
+}
+
+.notificationcard {
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.status {
+  color: #03d993;
+  font-weight: bold;
+}
+
+.chatbtn {
+  background-color: white;
+  border: 1px solid #03d993;
+  color: #03d993;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.spanans {
+  font-size: 12px;
+}
+
+.meetingstatus {
+  color: #03d993;
+}
+
+.actionstatus {
+  color: red;
+  cursor: pointer;
+}
+
+.timecard {
+  border: 1px solid #9f63a9;
+}
+
+.timespan {
+  color: #9f63a9;
+  font-weight: bold;
+}
+
+.profilepicappointment {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.linktagadd {
+  color: white;
+  text-decoration: none;
+}
+
+.spanicon {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  color: #9f63a9;
+  font-size: 20px;
+}
+
+.spaniconclose {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  color: red;
+  font-size: 20px;
+}
+
+.wrapper2 {
+  display: flex;
+  align-self: flex-start;
+  height: 100px;
+  padding: 30px 28px 30px 28px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.wrapper2 button {
+  width: 38px;
+  height: 30px;
+  display: block;
+  line-height: 1;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: 0px none transparent;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.wrapper2 button#backBtn {
+  position: relative;
+}
+
+.wrapper2 button#backBtn:after {
+  content: "";
+  position: absolute;
+  /* right: -20px; */
+  background: linear-gradient(to right, #fff 20%, transparent);
+  top: -2px;
+  bottom: -2px;
+  width: 20px;
+}
+
+.wrapper2 button#forBtn {
+  position: relative;
+}
+
+.wrapper2 button#forBtn:before {
+  content: "";
+  position: absolute;
+  /* left: -20px; */
+  background: linear-gradient(to left, #fff 20%, transparent);
+  top: -2px;
+  bottom: -2px;
+  width: 20px;
+}
+
+ul#calendarnew {
+  margin: 60px auto;
+  padding: 0px 47px 0px 47px;
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul#calendarnew li {
+  cursor: pointer;
+  /* width: 21px; */
+  height: 24px;
+  padding-top: 19px !important;
+  padding: 50px 21px 60px 30px;
+  flex: 0 0 auto;
+  line-height: 1.4;
+  transition: all 0.1s linear 0s;
+  font-weight: bold;
+}
+
+ul#calendarnew li:hover {
+  transition: all 0.2s linear 0s;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  background-color: #f1e8f2;
+  color: black;
+  font-weight: bold;
+}
+
+.calendar_heading {
+  align-self: flex-start;
+  max-width: auto;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.declinebtn {
+  color: red;
+}
+
+.deletebtn {
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid red;
+}
+
+.connectionsidediv {
+  margin-top: -200px;
+}
+
+.newstylebtn {
+  background-color: white !important;
+  color: red !important;
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.teamclosebtn {
+  font-size: 30px;
+  color: red;
+}
+
+.memberlist {
+  padding: 5px;
+}
+
+#recurringdiv {
+  height: 290px;
+  overflow-x: hidden;
+  overflow: scroll;
+}
+
+#liveappointment {
+  background-color: white;
+}
+
+#reseduleappointment {
+  background-color: #ffc4c4;
+}
+
+.liveday {
+  background-color: #9f63a9;
+}
+
+.resedulebtn {
+  background-color: red !important;
+}
+
+.addinput {
+  border: 1px solid black;
+}
+
+.userlistdiv {
+  background-color: white;
+  padding: 5px;
+  margin-left: 0px;
+  border: 1px solid #9f63a9;
+}
+
+.doctordiv {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+#selectdrdiv {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  background-color: #9f63a9;
+  color: white;
+}
+
+.mrwaitingroommodal {
+  display: block;
+}
+
+.completebtn {
+  background-color: #198754;
+  border: 1px solid #198754;
+  padding: 5px 8px;
+  border-radius: 20px;
+  color: white;
+}
+
+.bottomnavigation {
+  display: none;
+}
+
+.mobiledatepicker {
+  display: none;
+}
+.DislayFelx {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.profileavatar {
+  height: 80px !important;
+  width: 80px !important;
+}
+.p {
+  opacity: 0.7;
+}
+.BackIcons {
+  margin-top: 10px !important;
+  font-size: 30px !important;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.flex p {
+  margin-right: 10px;
+  margin-bottom: 0 !important;
+  color: #333;
+}
+/* reviewVisitingcard */
+.reviewVisitingcard {
+  width: 500px;
+}
+.reviewVisitingcardBody {
+  padding: 0.6rem 0.3rem;
+}
+.reviewVisitingcardBody img {
+  width: 80px !important;
+  height: 90px !important;
+  object-fit: cover !important;
+}
+.addbtn213 {
+  margin-top: 10px !important;
+}
+@media screen and (max-width: 650px) {
+  .bottomnavigation {
+    display: block !important;
+  }
+
+  .sidebar {
+    display: none !important;
+  }
+
+  .css-4a55g1-MuiSpeedDial-root {
+    bottom: 60px !important;
+  }
+
+  .waitingroom {
+    flex: 1;
+  }
+
+  .livetablelabel {
+    display: none;
+  }
+
+  .calenderdiv {
+    display: none;
+  }
+
+  .mobiledatepicker {
+    display: block !important;
+  }
+
+  .connectionsidediv {
+    margin-top: 30px !important;
+  }
+}
+
+.msger-chat {
+  height: 400px;
+  overflow-y: auto;
+}
+
+#fetching_comments {
+  flex-direction: column-reverse;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  margin-left: -150px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.cardss,
+.cardesss {
+  background-color: white;
+  width: 900px;
+  border-bottom: 1px solid lightgray;
+}
+.spinner {
+  margin-top: 30px;
+}
+.margimn {
+  margin-top: 20px;
+}
+.inputttt {
+  width: 500px;
+  padding: 25px !important;
+}
+.back {
+  margin-top: 17px;
+}
+.editbtnMessage {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #9f63a9;
+  color: #9f63a9;
+  font-size: 10px;
+  width: 100%;
+}
+.editbtn {
+  padding: 0.6rem 2.5rem;
+  border-radius: 5px;
+  /* margin-left: -25px; */
+}
+.editbtnn {
+  padding: 5px 20px;
+  background-color: white;
+  border: 1px solid #9f63a9;
+  border-radius: 5px;
+  color: #9f63a9;
+  font-size: 10px;
+  width: 100%;
+}
+.displayflex {
+  display: flex;
+  justify-content: space-between;
+}
+.messageAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.messageAction input {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #ededed;
+  padding: 27px;
+}
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+.qrcode img {
+  width: 300px;
+}
+.qrcoddee img {
+  width: 300px;
+}
+.qrcoddeeee img {
+  width: 300px !important;
+}
+.butonClose h3 {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.heading{
+  cursor: pointer;
+}

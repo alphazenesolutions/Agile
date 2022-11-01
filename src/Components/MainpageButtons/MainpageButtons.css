@@ -1,0 +1,11 @@
+.button {
+  background-color: #9f63a9 !important;
+  width: 100% !important;
+  border-radius: 5px !important;
+  padding: 14px !important;
+  font-size: 12px;
+}
+
+.button-group {
+  margin: 20px 0;
+}

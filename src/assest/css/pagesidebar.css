@@ -1,0 +1,19 @@
+.pagetitlelinkpage {
+    padding: 8px 8px 8px 0px;
+}
+.itemlinkpage {
+    text-decoration: none;
+    padding: 10px;
+}
+.sidebardiv {
+    background-color: whitesmoke;
+}
+.pagediv {
+    background-color: #F1F1F1;
+}
+.pagetitlelinkpage:hover {
+    background-color: #F1E8F2;
+    padding: 8px 8px 8px 0px;
+    border-radius: 5px;
+
+}

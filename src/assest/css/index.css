@@ -1,0 +1,64 @@
+h1{
+	color: black;
+}
+.btnnew:hover{
+	background-color:  #b546d6;
+	border: 1px solid #b546d6;
+}
+
+.mainpage{
+	height: 100%;
+}
+
+.red-asterisk{
+	color: red;
+}
+
+.btnnew{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:370px;
+	border-radius:20px;
+	background-color: #965DA8;
+	border: 1px solid #965DA8;
+}   
+.imageleftdiv{
+    background-color: #965DA8;
+    padding: 176px 90px 172px 90px;
+	color: white;
+}   
+
+.img{
+
+	margin-top:40px;
+	background-color:white;
+}
+.rightsidediv{
+	
+	margin-top: 140px;
+	padding: 4px;
+}
+.rolelink{
+	color: white;
+	text-decoration: none !important;
+}
+.rolelink:hover{
+	color: white;
+}
+.buttongroup{
+	text-decoration: none;
+	margin-left: 150px;
+	width:75%
+}
+.logoimage{
+	width: 15%;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (max-width:650px) {
+	.buttongroup{
+		text-decoration: none;
+		margin-left: 0px;
+		
+	}
+}

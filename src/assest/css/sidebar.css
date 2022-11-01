@@ -1,0 +1,86 @@
+.linkitem {
+  color: black;
+  text-decoration: none !important;
+  font-size: 13px;
+}
+
+.linkitemactive {
+  background-color: #9f63a9;
+  padding: 10px 50px 10px 5px;
+  border-radius: 5px;
+}
+
+.itemlink {
+  text-decoration: none;
+}
+
+.pagetitlelink {
+  padding: 15px 15px 15px 0px;
+}
+
+.pagenumber {
+  background-color: white;
+  padding: 4px 6px 4px 6px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+
+.logosidebar {
+  margin-left: 20px;
+}
+
+.sidebardiv {
+  /* border-right: 1px solid black; */
+  height: 90vh;
+  padding: 0 20px 0 20px;
+}
+
+.pagetitlelink:hover {
+  background-color: #9f63a9;
+  padding: 10px 10px 10px 5px;
+  border-radius: 5px;
+}
+
+.linkitem:hover {
+  color: black;
+}
+
+.pagenumber:hover {
+  color: #9f63a9;
+}
+
+.sublink {
+  margin-left: 10px;
+}
+
+.sidebarprofile {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.sidebarname {
+  font-size: 10px;
+}
+
+.headingspanside {
+  font-size: 10px;
+  color: #343a4099;
+}
+
+.namelist {
+  margin-top: -10px;
+}
+
+.countspanside {
+  background-color: #9f63a9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.countspansidemsg {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}

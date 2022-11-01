@@ -1,0 +1,349 @@
+.profileside {
+  background-color: #f1f1f1;
+  padding-left: 30px;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0 2rem;
+}
+
+.bgg {
+  background-color: #f1f1f1;
+}
+
+datalist {
+  display: none !important;
+}
+
+.sidecontrol {
+  position: sticky;
+}
+
+.addrecep {
+  background-color: #9f63a9;
+  border-radius: 20px;
+  color: white !important;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid #9f63a9;
+}
+
+.invitesendbtn {
+  background-color: white;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.disconnectedbtn {
+  background-color: white;
+  color: lightcoral !important;
+  border: 1px solid lightcoral;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.titlehead {
+  color: #281f2a;
+}
+
+.profilepicdisplay {
+  border-radius: 10px;
+}
+
+.profilename {
+  color: #707070;
+}
+
+.profilerole {
+  color: #9f63a9;
+}
+
+.editpersonalbtn {
+  background-color: white;
+  border-radius: 5px;
+  color: #9f63a9;
+  padding: 5px 20px;
+}
+
+.titlehead {
+  color: #707070;
+  margin-bottom: 5px;
+}
+
+.clinichead {
+  color: #281f2a;
+  text-align: center;
+}
+
+.clinicaddress {
+  color: #343a4099;
+  /* opacity: 60%; */
+}
+
+.clinicdisplaydiv {
+  border-bottom: 1px solid lightgray;
+}
+
+.vistingename {
+  color: black;
+}
+
+.timimghead {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.timimghead:hover {
+  padding-bottom: 5px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.clinicslottimimg {
+  background-color: #9f63a9;
+  padding: 5px 20px;
+  border: 1px solid #9f63a9;
+  border-radius: 5px;
+  width: auto;
+  margin: 5px;
+  color: white;
+}
+
+.slotdiv {
+  width: auto;
+  margin: 10px;
+}
+
+.editbtn {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px !important;
+  border-radius: 5px !important;
+  color: #9f63a9;
+  font-size: 10px;
+}
+
+.cancelbtn {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #9f63a9;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.savebtn {
+  background-color: #9f63a9;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.backbtn {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black !important;
+}
+
+.backbtnn {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black !important;
+}
+
+.deletebtn {
+  background-color: white;
+  border: 1px solid red;
+  padding: 5px 20px;
+  border-radius: 5px !important;
+  color: red;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.editbtnnew {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  border-radius: 5px !important;
+  color: #9f63a9;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.addbtn {
+  background-color: #9f63a9;
+  border: 1px solid #9f63a9;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.addbtn1 {
+  background-color: #9f63a9;
+  border: 1px solid #9f63a9;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.checkbtn {
+  background-color: white;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #9f63a9;
+  margin: 5px;
+  margin-top: 16px;
+}
+
+.addcompany {
+  background: #9f63a9;
+  color: white !important;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.routeinput {
+  margin-top: -15px;
+}
+
+.btn {
+  color: black;
+  border: 1px solid lightgray;
+}
+
+.countspan {
+  background-color: #9f63a9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.namehead {
+  color: #281f2a;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.namevalue {
+  color: #343a4099;
+}
+
+.addnowbtn {
+  background-color: #9f63a9;
+  border: 1px solid #9f63a9;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.addbtnnew {
+  background-color: #9f63a9;
+  color: white;
+}
+
+.editclinicbtn {
+  background-color: white;
+  border-radius: 50%;
+  margin: 1px;
+  color: #9f63a9;
+}
+
+.deleteclinibtn {
+  background-color: white;
+  border-radius: 50%;
+  margin: 1px;
+  color: red;
+}
+
+.linktag {
+  color: #9f63a9;
+  text-decoration: none;
+}
+
+.editlink {
+  color: #9f63a9;
+  text-decoration: none;
+}
+
+.radiobtn {
+  border: 1px solid #9f63a9;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dailybtn {
+  margin-left: 10px;
+}
+
+.timedisplay {
+  background-color: #9f63a9;
+  border: 1px solid;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.daysbutton {
+  background-color: white;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.mystyle {
+  background-color: #9f63a9;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+}
+
+.headingroute {
+  color: #9f63a9;
+  font-weight: bolder;
+}
+
+.searchbtn {
+  background-color: #9f63a9;
+  border: 1px solid #9f63a9;
+  padding: 7px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.red-asterisk {
+  color: red;
+}
+
+.dummy {
+  width: 500px !important;
+}
+
+.timeinput {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+}

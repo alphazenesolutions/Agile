@@ -1,0 +1,67 @@
+h1 {
+  color: red;
+}
+/* .Login{
+	height: ;
+} */
+.imageleftdiv {
+  background-color: #965da8;
+  color: white;
+  height: auto;
+  padding-bottom: 30vh;
+}
+
+.bottomimg {
+  margin-top: 40px;
+}
+
+.texotpt {
+  margin-right: 10px;
+  margin-top: 16px;
+}
+
+.mobile {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.inputfield {
+  width: 50%;
+}
+
+.text-left {
+  padding: 10px 10px 10px 148px;
+}
+
+.logging {
+  color: #965da8;
+  text-decoration: underline;
+  margin-top: -15px;
+}
+
+.remeber {
+  margin-top: -20px;
+}
+.verifybtn:hover {
+  background-color: #b546d6;
+  border: 1px solid #b546d6;
+}
+.verifybtn {
+  background-color: #b14bcf;
+  border: 1px solid #b14bcf;
+  border-radius: 5px !important;
+  padding: 10px 20px !important;
+}
+#rc-imageselec {
+  width: 450px !important;
+  height: 650px !important;
+  position: initial !important;
+}
+iframe {
+  z-index: -10 !important;
+}
+@media screen and (max-width: 650px) {
+  .imageleftdiv {
+    display: none;
+  }
+}

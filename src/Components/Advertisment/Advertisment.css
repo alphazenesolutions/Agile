@@ -1,0 +1,12 @@
+.bannerimg {
+  /* width: 1130px; */
+  height: 100px;
+  object-fit: contain;
+}
+/* ADCONTAINER */
+.ADCONTAINER {
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+  margin: auto;
+}
